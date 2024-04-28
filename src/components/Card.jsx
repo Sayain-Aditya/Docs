@@ -18,7 +18,7 @@ function Card({data, refrence}) {
             </span>
         </div>
         {data.tag.isOpen && (
-          <div className={`tag w-full py-4 ${data.tag.tagColor === "blue" ? "bg-blue-600" : "bg-green-600"} flex items-center justify-center`}>
+          <div className={`tag w-full py-4 ${data.tag.tagColor === "blue" ? "bg-red-600" : "bg-green-600"} flex items-center justify-center`}>
           <h3 className="text-sm font-semibold">{data.tag.tagTittle}</h3>
       </div>
         )}
